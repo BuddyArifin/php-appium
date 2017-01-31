@@ -1,0 +1,22 @@
+{
+  "name": "appium/example-php",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require-dev" : {
+    "phpunit/phpunit" : "5.5.0",
+    "appium/php-client": "dev-master"
+  },
+  "repositories" : [
+    {
+      "type": "vcs",
+      "url": "https://github.com/appium/php-client"
+    }
+  ]
+}
